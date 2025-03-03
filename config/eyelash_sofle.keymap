@@ -1,12 +1,12 @@
 #define CONFIG_WIRELESS
-#define ZMK_BASE_LAYER(name, LT, RT, LM, RM, LB, RB, LH, RH)                                          \
-    ZMK_LAYER(                                                                                        \
-        name,                                                                                         \
-        &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none     \
-        &none           LT  &none   RT   &none                                                        \
-        &none           LM  &none   RM   &none                                                        \
-        &none           LB  &none   RB   &none                                                        \
-        &none &none  &none            LH  &none   RH   &none &none                                    \
+#define ZMK_BASE_LAYER(name, LT, RT, LM, RM, LB, RB, LH, RH)                                                \
+    ZMK_LAYER(                                                                                              \
+        name,                                                                                               \
+        &none  &none  &none  &none  &none  &none     &none     &none  &none  &none  &none  &none  &none     \
+        &none                       LT               &none            RT                          &none     \
+        &none                       LM               &none            RM                          &none     \
+        &none                       LB               &none            RB                          &none     \
+        &none  &none  &none  &none  LH               &none            RH     &none  &none  &none            \
     )
 
 #include "eyelash_sofle.h"
