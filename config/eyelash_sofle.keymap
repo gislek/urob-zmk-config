@@ -6,9 +6,9 @@
         &none                       LT               &none            RT                          &none     \
         &none                       LM               &none            RM                          &none     \
         &none                       LB               &none            RB                          &none     \
-        &none  &none  &none  &none  LH               &none            RH     &none  &none  &none            \
+        &none  &none  &none  &none  LH               &none            RH     &kp BCPS  &none  &none         \
     )
 
+#include "zmk-helpers/unicode-chars/danish.dtsi"
 #include "eyelash_sofle.h"
 #include "base.keymap"
-

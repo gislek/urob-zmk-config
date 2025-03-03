@@ -20,14 +20,14 @@
 
 #pragma once
 
-#define LN0  5  // left-top row
+#define LN0  5  // left-number row
 #define LN1  4
 #define LN2  3
 #define LN3  2
 #define LN4  1
 #define LN5  0
 
-#define RN0  7  // right-top row
+#define RN0  7  // right-number row
 #define RN1  8
 #define RN2  9
 #define RN3 10
