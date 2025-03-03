@@ -6,7 +6,7 @@
         &none                       LT               &none            RT                          &none     \
         &none                       LM               &none            RM                          &none     \
         &none                       LB               &none            RB                          &none     \
-        &none  &none  &none  &none  LH               &none            RH     &kp BCPS  &none  &none         \
+        &none  &none  &none  &none  LH               &none            RH     &kp BSPC  &none  &none         \
     )
 
 #include "zmk-helpers/unicode-chars/danish.dtsi"
