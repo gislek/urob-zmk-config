@@ -14,9 +14,9 @@
         }; \
     };
 
-ZMK_LEADER_SEQUENCE(no_ae,      &kp Z,    L)       // æ
-ZMK_LEADER_SEQUENCE(no_oe,      &kp RALT(L),    U)       // ø
-ZMK_LEADER_SEQUENCE(no_aa,      &kp RALT(W),    Y)       // å
+ZMK_LEADER_SEQUENCE(no_ae,      &kp RA(Z),    L)       // æ
+ZMK_LEADER_SEQUENCE(no_oe,      &kp RA(L),    U)       // ø
+ZMK_LEADER_SEQUENCE(no_aa,      &kp RA(W),    Y)       // å
 
 // BLE and USB
 #ifdef CONFIG_WIRELESS
