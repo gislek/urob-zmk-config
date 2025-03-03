@@ -14,9 +14,9 @@
         }; \
     };
 
-//ZMK_LEADER_SEQUENCE(dk_ae,      &dk_ae,    L)       // æ
-//ZMK_LEADER_SEQUENCE(dk_oe,      &dk_oe,    U)       // ø
-//ZMK_LEADER_SEQUENCE(dk_aa,      &dk_aa,    Y)       // å
+ZMK_LEADER_SEQUENCE(dk_ae,      &dk_ae,    L)       // æ
+ZMK_LEADER_SEQUENCE(dk_oe,      &dk_oe,    U)       // ø
+ZMK_LEADER_SEQUENCE(dk_aa,      &dk_aa,    Y)       // å
 
 // BLE and USB
 #ifdef CONFIG_WIRELESS
@@ -25,3 +25,4 @@ ZMK_LEADER_SEQUENCE(ble,        &out OUT_BLE,   B L E)
 #endif // CONFIG_WIRELESS
 ZMK_LEADER_SEQUENCE(reset,      &sys_reset,     R E S E T)
 ZMK_LEADER_SEQUENCE(boot,       &bootloader,    B O O T)
+
