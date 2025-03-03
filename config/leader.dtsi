@@ -14,7 +14,7 @@
         }; \
     };
 
-ZMK_LEADER_SEQUENCE(no_ae,      &kp RALT(Z),    L)       // æ
+ZMK_LEADER_SEQUENCE(no_ae,      &kp Z,    L)       // æ
 ZMK_LEADER_SEQUENCE(no_oe,      &kp RALT(L),    U)       // ø
 ZMK_LEADER_SEQUENCE(no_aa,      &kp RALT(W),    Y)       // å
 
