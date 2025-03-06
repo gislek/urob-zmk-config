@@ -1,3 +1,7 @@
+chosen {
+    zephyr,console = &cdc_acm_uart;
+};
+
 #define CONFIG_WIRELESS
 #define ZMK_BASE_LAYER(name, LT, RT, LM, RM, LB, RB, LH, RH)                                                \
     ZMK_LAYER(                                                                                              \
@@ -69,3 +73,12 @@ ZMK_BASE_LAYER(Fn,
                                               ___           ___         ,   &kp C_MUTE    &kp C_PP
 //                                          ╰─────────────┴─────────────╯ ╰─────────────┴─────────────╯
 )
+
+// allow USB logging
+&usbd {
+    status = "okay";
+    cdc_acm_uart: cdc_acm_uart {
+        compatible = "zephyr,cdc-acm-uart";
+        label = "CDC_ACM_0";
+    };
+};
