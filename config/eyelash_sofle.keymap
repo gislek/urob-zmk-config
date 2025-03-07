@@ -14,7 +14,7 @@
 
 ZMK_COMBO(pscrn,  &kp PSCRN,     LT0 LT1,     DEF NAV NUM, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 
-ZMK_CONDITIONAL_LAYER(sys, NAV NUM, SYS) // FN + NUM --> SYS.
+ZMK_CONDITIONAL_LAYER(sys, NAV RET, SYS) // FN + NUM --> SYS.
 
 
 ZMK_BASE_LAYER(Base,
@@ -25,7 +25,7 @@ ZMK_BASE_LAYER(Base,
 //├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
     &kp Z         &kp X         &kp C         &kp D         &kp V       ,   &kp K         &kp H         &comma_morph  &dot_morph    &qexcl      ,
 //╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤ ├─────────────┼─────────────┼─────────────┴───────────────────────────╯
-                                              &lt NUM SPACE &lt FN RET  ,   &kp LSHFT     &lt NAV BSPC
+                                              &lt NUM SPACE &lt FN RET  ,   &lt NAV BSPC  &kp LSHFT
 //                                          ╰─────────────┴─────────────╯ ╰─────────────┴─────────────╯
 )
 
