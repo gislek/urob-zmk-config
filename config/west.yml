@@ -37,6 +37,10 @@ manifest:
       remote: gpeye
       revision: main 
 
+    - name: temper
+      url: https://github.com/Sifan6688/Temper_zmk
+      revision: main
+
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
